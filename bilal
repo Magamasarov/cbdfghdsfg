@@ -1,0 +1,110 @@
+1) Задание
+num = int(input())
+
+if num < 0:
+    print('число  отрицательное')
+else:
+    print('не отрицательное!')
+
+
+
+2) Задание
+num = int(input('inter:'))
+if num % 2 == 0:
+    print('число', num, 'четное')
+else:
+    print(num, 'нечетное')
+
+# 3 Задание
+a = int(input('inter:'))
+
+print((len(str(a))))
+
+
+4) Задание
+l = [1, 3, 4, ]
+print(sum(l))
+
+5) задание
+sum = 0
+for number in '12,34,56'.split(','):
+    sum += int(number)
+
+print(sum)
+
+
+
+UNITEST
+
+6) Задание
+date = ‘2025 - 12 - 31’
+year, month, day = date.split(‘-’)
+print((day, month, year))
+
+7)  Задание
+sum = 0
+
+for item in ['1', '2', '3', '4', '5']:
+    try:
+        sum += int(item)
+    except ValueError:
+        pass
+
+print(sum)
+
+8) задание
+
+l = [1, 2, 3, 4, 5, 6]
+
+sum1 = sum(range(len(l) // 2))
+sum2 = sum(range((len(l) + 1) // 2, len(l)))
+result = sum1 / sum2
+print(result)
+
+9) Задание
+dct1 = {'a': 1, 'b': 2}
+dct2 = {'c': 3, 'd': 4}
+
+for key, value in dct2.items():
+    dct1[key] = value
+
+print(dct1)
+
+10) Задание
+\..............\
+
+
+
+
+11) Задание
+def max_min(lst):
+    return {
+        'max': max(lst),
+        'min': min(lst),
+    }
+
+
+lst = [1, 9, 3, -5, 7, -9, 2]
+result = max_min(lst)
+print(max_min(lst))
+
+12) Задание
+
+
+
+
+13) Задание
+
+
+14) Задание
+import random
+
+colors = ["red", "green", "blue", "yellow", "white"]
+
+
+def random_color():
+    return random.choice(colors)
+
+
+r_c = random_color()
+print(r_c)
